@@ -1,0 +1,31 @@
+.navbarHeight {
+    height: 100vh;
+    max-height: 100vh;
+    border-radius: 15px 0px 0px 15px;
+    border-right: 2px solid #343166;
+}
+
+.logoSetting {
+    margin-bottom: 30vh;
+    justify-content: center;
+    display: flex;
+}
+
+.listAlignment{
+    justify-content: center;
+    display: flex;
+}
+
+.navbarColor{
+    background: linear-gradient(0deg, #17163B, #17163B);
+}
+
+.sidenav{
+    left: 0;
+    flex-basis: 100%;
+}
+
+.budgetQuest {
+    color: white;
+    font-family: 'PT Serif', serif;
+}
