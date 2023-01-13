@@ -1,0 +1,166 @@
+.homepage{
+    background: linear-gradient(0deg, #17163B, #17163B);
+    height: 100vh;
+    max-height: 100vh;
+
+}
+
+.grid{
+    overflow: hidden;
+}
+
+.headerGreetings{
+    align-items: center;
+    margin: auto;
+    object-fit: contain;
+    flex-grow: 1;
+    width: inherit;
+    height: inherit;
+    display: flex; 
+    justify-content: center; 
+}
+
+.balance {
+    align-items: center;
+    margin: auto;
+    object-fit: contain;
+    font-family: 'Helvetica Neue';
+}
+
+.bnbBalance {
+    position: static;
+    height: 19px;
+    left: 2.81%;
+    right: 0%;
+    top: calc(50% - 19px/2 - 38.5px);
+
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 19px;
+    /* identical to box height */
+
+
+    color: #A2A0BF;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 10px 0px;
+}
+
+.myBalance{
+    position: static;
+    height: 30px;
+    left: 2.81%;
+    right: 26.69%;
+    top: calc(50% - 30px/2 - 4px);
+
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.5rem;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    color:  white;
+}
+
+.searchbar{
+    background: #26234E;
+    width: 15vw;
+    border-radius: 10px;
+    color: white;
+    overflow-x: hidden;
+    margin: auto;
+    overflow: hidden;
+}
+
+.magGlass{
+    position: relative;
+}
+
+
+.boxedText{
+    border-radius: 2px;
+    color: black;
+}
+
+.genericButton {
+    background-color: #282554;
+    border-radius: 8px;
+    margin:auto;
+    color: white;
+    display: flex; 
+    justify-content: center; 
+    width: 12vh;
+    height: 7vh;
+}
+.active, .genericButton:hover {
+    background-color: #343166;
+}
+.buttonText{
+    position: relative;
+    margin:auto;
+    align-items: center;
+}
+
+.sortButton{
+    justify-content: left !important; 
+    color: white;
+    background-color: #17163B;
+    align-items: flex-start !important;
+    padding-right: 30px;
+    font-size: small;
+}
+
+.sortButton:hover{
+    background-color: #17163B;
+}
+
+.tradeCardParentDiv{
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    padding-top: 10px;
+}
+.trade-cards-wrapper{
+    justify-content: center;
+    border-radius: 10px;
+    background-color: #343166;
+    border-color: RED;
+    text-align: center;
+    color: white;
+    width: 35vh;
+    height: 23vh;
+    position: relative;
+    padding-top: 5px;
+    margin-top: 5px;
+}
+
+.space-between{
+    justify-content: space-between;
+    font-size: 0.5rem;
+    display: flex;
+    margin: 10px;
+}
+
+
+.trade-token-address-font{
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    font-weight: 400;
+    font-size:0.5rem;
+    display: flex;
+    justify-content: center;
+    color:#A2A0BF;
+}
+
+
+.trade-name-font {
+    font-size: 1rem;
+    font-weight: bold;
+}
