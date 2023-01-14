@@ -153,5 +153,32 @@
     border: solid;
     border-radius: 25px;
     display: flex;
+    padding-left: 20px;
+    padding-top: 10px;
+    margin-left: 10px;
+    background-color: #0067B1;
+    border-color: #0067B1;
+
+}
+
+.fontcolor{
+    color:white;
+
+}
+
+.percentageWrapper{
+    border: solid;
+    border-radius: 5px;
+    display: flex;
+    padding-left: 30px;
+    margin: auto;
+    background-color: rgba(255, 0, 29, 0.15);
     align-items: center;
+    justify-content: center;
+}
+
+.percentageFont{
+    color: #04FF1D;
+    font-family: "VT323", "monospace";
+
 }

@@ -8,8 +8,7 @@ const SideNav: FC = () => {
     return (
         <div className="sidenav">
             <aside className="basis-full" >
-                <SideNavWrapper>
-                </SideNavWrapper>
+                <SideNavWrapper />
             </aside>
         </div>
 

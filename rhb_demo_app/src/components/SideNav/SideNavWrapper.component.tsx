@@ -12,7 +12,8 @@ import budgetIcon from "../../assets/budgetIcon.svg"
 import settingIcon from "../../assets/settingIcon.svg"
 import leaderboardLogo from "../../assets/leaderboardLogo.svg"
 import chatIcon from "../../assets/chatIcon.svg"
-const SideNavWrapper: FC = () => {
+
+const SideNavWrapper = (): JSX.Element => {
 
     return (
         <Fragment>

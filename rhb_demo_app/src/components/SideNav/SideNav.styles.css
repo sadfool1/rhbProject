@@ -13,8 +13,9 @@
 }
 
 .listAlignment{
-    justify-content: center;
+    justify-content: left;
     display: flex;
+    padding-left: 40px;
 }
 
 .navbarColor{
@@ -45,5 +46,5 @@
 
 
 .iconlist{
-    justify-content: left;
+    display: inherit;
 }
