@@ -8,6 +8,7 @@ const Logo: FC = () => {
         <a href="" className="logoSetting">
             <img src={brandLogo} alt="brand Logo" />
             <span className="budgetQuest">Budget Quest</span>
+            
         </a>
     );
 }

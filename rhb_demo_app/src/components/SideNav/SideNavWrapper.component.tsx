@@ -4,6 +4,7 @@ import Logo from './Logo.component';
 import SideNavElement from './SideNavElement.component';
 import DashboardIcon from "../../assets/dashboard.svg"
 import AnalyticsIcon from "../../assets/analyticsIcon.svg"
+import UserProfileBadge from './UserProfileBadge';
 
 const SideNavWrapper: FC = () => {
 
@@ -24,6 +25,8 @@ const SideNavWrapper: FC = () => {
                     <SideNavElement linkTo ="/snipe" icon={AnalyticsIcon} title="analytics"></SideNavElement>
 
                 </ul>
+
+                <UserProfileBadge></UserProfileBadge>
             </div>
         </Fragment>
 
