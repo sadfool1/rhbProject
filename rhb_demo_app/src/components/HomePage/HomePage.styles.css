@@ -1,5 +1,5 @@
 .homepage{
-    background: linear-gradient(0deg, #17163B, #17163B);
+    background: linear-gradient(0deg, #2596BE, #2596BE);
     height: 100vh;
     max-height: 100vh;
 
@@ -16,8 +16,8 @@
     flex-grow: 1;
     width: inherit;
     height: inherit;
-    display: flex; 
-    justify-content: center; 
+    display: flex;
+    justify-content: center;
 }
 
 .balance {
@@ -94,8 +94,8 @@
     border-radius: 8px;
     margin:auto;
     color: white;
-    display: flex; 
-    justify-content: center; 
+    display: flex;
+    justify-content: center;
     width: 12vh;
     height: 7vh;
 }
@@ -109,7 +109,7 @@
 }
 
 .sortButton{
-    justify-content: left !important; 
+    justify-content: left !important;
     color: white;
     background-color: #17163B;
     align-items: flex-start !important;
