@@ -2,7 +2,7 @@
     background: linear-gradient(0deg, #2596BE, #2596BE);
     height: 100vh;
     max-height: 100vh;
-
+    margin: auto;
 }
 
 .grid{
@@ -10,14 +10,23 @@
 }
 
 .headerGreetings{
-    align-items: center;
-    margin: auto;
-    object-fit: contain;
-    flex-grow: 1;
-    width: inherit;
-    height: inherit;
+    align-items: left;
     display: flex; 
-    justify-content: center; 
+    font-family: "VT323", "monospace";
+    color: #0E132F;
+    font-size: 50px;
+    margin: left;
+    padding-left: 40px;
+}
+
+.headerNote {
+    padding-left: 40px;
+    align-items: left;
+    display: flex; 
+    color: #565A6D;
+    font-family: "VT323", "monospace";
+    font-size: 14px;
+
 }
 
 .balance {
@@ -25,31 +34,6 @@
     margin: auto;
     object-fit: contain;
     font-family: 'Helvetica Neue';
-}
-
-.bnbBalance {
-    position: static;
-    height: 19px;
-    left: 2.81%;
-    right: 0%;
-    top: calc(50% - 19px/2 - 38.5px);
-
-    font-family: 'Helvetica Neue';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 1rem;
-    line-height: 19px;
-    /* identical to box height */
-
-
-    color: #A2A0BF;
-
-    /* Inside auto layout */
-
-    flex: none;
-    order: 0;
-    flex-grow: 0;
-    margin: 10px 0px;
 }
 
 .myBalance{
@@ -163,4 +147,11 @@
 .trade-name-font {
     font-size: 1rem;
     font-weight: bold;
+}
+
+.borderWrapper{
+    border: solid;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
 }
