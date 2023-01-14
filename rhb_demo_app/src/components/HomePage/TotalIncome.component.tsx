@@ -14,24 +14,29 @@ const TotalIncome = (): JSX.Element => {
   return (
     <>
       <div className="borderWrapper">
-        <div className="row-span-1">
-          <div className="grid-cols-3 ">
-            <div className="grid-row-2">
+        <div className="fontcolor">
+        <div className="grid grid-rows-2 grid-cols-3 withinBorder">
+            <div className="row-span-1">
               <img src={arrowDown} />
-              <img src={arrowUp} />
+              
             </div>
-            <div className="grid-row-4">
-              <span>{totalIncomeText}</span>
-              <span>{data.totalIncome}</span>
-              <span>{totalOutgoingText}</span>
-              <span>{data.totalOutgoing}</span>
+            <div className="col-span-2"> <span>{totalIncomeText}</span>
+            <div className="row-span-1"> <span>{data.totalIncome}</span></div>
             </div>
 
-          </div>
+            <div className="row-span-1">
+              <img src={arrowUp} />
+
+            </div>
+            <div className="col-span-2"> <span>{totalOutgoingText}</span>
+            <div className="row-span-1"> <span>{data.totalOutgoing}</span></div>
+              </div>
+                        
         </div>
-        <div className="col-span-1">
-          <h1> {mockPercentage} </h1>
-        </div>
+      </div>
+
+      <div className="percentageWrapper"><div className="percentage"> <span className="percentageFont">{mockPercentage}</span></div></div>
+
       </div>
     </>
   )
