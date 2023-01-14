@@ -6,9 +6,10 @@
 }
 
 .logoSetting {
-    margin-bottom: 30vh;
+    margin-bottom: 10vh;
     justify-content: center;
     display: flex;
+    margin-right: 50px;
 }
 
 .listAlignment{
@@ -27,5 +28,8 @@
 
 .budgetQuest {
     color: white;
-    font-family: 'PT Serif', serif;
+    font-family: 'VT323', monospace;
+    margin-left:10px;
+    word-spacing:10px;
+    padding: 10px 0;
 }

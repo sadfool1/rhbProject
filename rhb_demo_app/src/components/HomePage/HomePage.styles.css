@@ -16,8 +16,8 @@
     flex-grow: 1;
     width: inherit;
     height: inherit;
-    display: flex;
-    justify-content: center;
+    display: flex; 
+    justify-content: center; 
 }
 
 .balance {
