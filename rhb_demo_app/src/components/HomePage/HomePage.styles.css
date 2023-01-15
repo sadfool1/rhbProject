@@ -155,15 +155,18 @@
     display: flex;
     padding-left: 20px;
     padding-top: 10px;
-    margin-left: 10px;
     background-color: #0067B1;
     border-color: #0067B1;
+    padding-right: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+
 
 }
 
 .fontcolor{
     color:white;
-
+    
 }
 
 .percentageWrapper{
@@ -179,6 +182,16 @@
 
 .percentageFont{
     color: #04FF1D;
-    font-family: "VT323", "monospace";
 
+}
+
+.balancesNumber{
+    padding-left: 20px;
+    font-size: 50px;
+    color:white;
+}
+
+.fullFont{
+    font-family: "VT323", "monospace";
+    
 }

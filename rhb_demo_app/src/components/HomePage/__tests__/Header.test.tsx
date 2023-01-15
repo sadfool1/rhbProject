@@ -11,7 +11,6 @@ describe("Header testing", () => {
 
     it("should render header with greetings", () => {
         const expectedText = "Here is the update from your payment channels, that is really important for you to catch up"
-
         render(<HeaderGreetings />)
         expect(screen.getByTestId('headerGreetings')).toHaveTextContent('Greetings')
         expect(screen.getByTestId('headerNote')).toHaveTextContent(expectedText)
@@ -20,7 +19,6 @@ describe("Header testing", () => {
 
     it("should render header with mockcustomer name", () => {
         const expectedName = homepageMock.name
-
         render(<HeaderGreetings />)
         expect(screen.getByTestId('headerGreetings')).toHaveTextContent(expectedName)
     })
