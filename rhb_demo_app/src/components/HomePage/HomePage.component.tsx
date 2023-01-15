@@ -15,7 +15,7 @@ const HomePage: FC<HomePageFetchDataProps> = (props) => {
                 <div className='grid grid-rows-2 flex overflow-y-hidden '>
                     <HeaderGreetings />
                 </div>
-                <div className="grid grid-cols-2 grid-rows-3 gap-0 ">
+                <div className="grid grid-cols-2 grid-rows-3 gap-0 fullFont ">
                     <TotalIncome />
                     <Balances />
                 </div>

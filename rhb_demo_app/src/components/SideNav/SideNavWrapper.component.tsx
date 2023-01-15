@@ -21,13 +21,13 @@ const SideNavWrapper = (): JSX.Element => {
                 <Logo></Logo>
                 <ul className="space-y-4 iconlist">
                     <SideNavElement linkTo ="/home" icon={DashboardIcon} title="Dashboard"></SideNavElement>
-                    <SideNavElement linkTo ="/snipe" icon={AnalyticsIcon} title="Analytics"></SideNavElement>
-                    <SideNavElement linkTo ="/snipe" icon={transactionsLogo} title="Transactions"></SideNavElement>
-                    <SideNavElement linkTo ="/snipe" icon={flagIcon} title="Accounts"></SideNavElement>
-                    <SideNavElement linkTo ="/snipe" icon={budgetIcon} title="budget"></SideNavElement>
-                    <SideNavElement linkTo ="/snipe" icon={settingIcon} title="settings"></SideNavElement>
-                    <SideNavElement linkTo ="/snipe" icon={leaderboardLogo} title="Leaderboards"></SideNavElement>
-                    <SideNavElement linkTo ="/snipe" icon={chatIcon} title="Village"></SideNavElement>
+                    <SideNavElement linkTo ="/analytics" icon={AnalyticsIcon} title="Analytics"></SideNavElement>
+                    <SideNavElement linkTo ="/transactions" icon={transactionsLogo} title="Transactions"></SideNavElement>
+                    <SideNavElement linkTo ="/accounts" icon={flagIcon} title="Accounts"></SideNavElement>
+                    <SideNavElement linkTo ="/budget" icon={budgetIcon} title="budget"></SideNavElement>
+                    <SideNavElement linkTo ="/settings" icon={settingIcon} title="settings"></SideNavElement>
+                    <SideNavElement linkTo ="/leaderboards" icon={leaderboardLogo} title="Leaderboards"></SideNavElement>
+                    <SideNavElement linkTo ="/village" icon={chatIcon} title="Village"></SideNavElement>
                 </ul>
 
                 <UserProfileBadge></UserProfileBadge>
