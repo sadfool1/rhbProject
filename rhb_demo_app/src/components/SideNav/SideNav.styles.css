@@ -48,3 +48,8 @@
 .iconlist{
     display: inherit;
 }
+
+.lineSeparator {
+    width: 90%;
+    margin: auto;
+}

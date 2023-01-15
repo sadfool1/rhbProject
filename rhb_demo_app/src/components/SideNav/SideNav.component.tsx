@@ -11,8 +11,6 @@ const SideNav: FC = () => {
                 <SideNavWrapper />
             </aside>
         </div>
-
-    
     );
 }
 

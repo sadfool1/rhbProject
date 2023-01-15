@@ -12,6 +12,8 @@ import budgetIcon from "../../assets/budgetIcon.svg"
 import settingIcon from "../../assets/settingIcon.svg"
 import leaderboardLogo from "../../assets/leaderboardLogo.svg"
 import chatIcon from "../../assets/chatIcon.svg"
+import lineSeparator from "../../assets/lineSeparator.svg"
+
 
 const SideNavWrapper = (): JSX.Element => {
 
@@ -26,8 +28,11 @@ const SideNavWrapper = (): JSX.Element => {
                     <SideNavElement linkTo ="/accounts" icon={flagIcon} title="Accounts"></SideNavElement>
                     <SideNavElement linkTo ="/budget" icon={budgetIcon} title="budget"></SideNavElement>
                     <SideNavElement linkTo ="/settings" icon={settingIcon} title="settings"></SideNavElement>
+                    <img className="lineSeparator" src={lineSeparator} />
                     <SideNavElement linkTo ="/leaderboards" icon={leaderboardLogo} title="Leaderboards"></SideNavElement>
                     <SideNavElement linkTo ="/village" icon={chatIcon} title="Village"></SideNavElement>
+                    <img className="lineSeparator" src={lineSeparator} />
+
                 </ul>
 
                 <UserProfileBadge></UserProfileBadge>

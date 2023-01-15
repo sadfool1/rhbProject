@@ -4,6 +4,5 @@ export const TRANSACTIONS: string="/transactions"
 export const ACCOUNTS: string="/accounts"
 export const BUDGET: string="/budget"
 export const SETTINGS: string="/settings"
-
-
-
+export const LEADERBOARD: string="/leaderboards"
+export const VILLAGE: string="/village"

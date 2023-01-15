@@ -15,6 +15,8 @@ import Transactions from './components/Transactions';
 import Accounts from './components/Accounts';
 import Budget from './components/Budget';
 import Settings from './components/Settings';
+import LeaderBoard from "./components/LeaderBoard";
+import Village from "./components/Village";
 
 
 function App() {
@@ -34,6 +36,8 @@ function App() {
               <Route path={ROUTES.ACCOUNTS} element={<Accounts />}>  </Route>
               <Route path={ROUTES.BUDGET} element={<Budget />}>  </Route>
               <Route path={ROUTES.SETTINGS} element={<Settings />}>  </Route>
+              <Route path={ROUTES.LEADERBOARD} element={<LeaderBoard />}>  </Route>
+              <Route path={ROUTES.VILLAGE} element={<Village />}>  </Route>
             </Routes>
           </div>
         </div>
